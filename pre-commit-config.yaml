@@ -1,0 +1,8 @@
+repos:
+- repo: local
+  hooks:
+  - id: lint-js
+    name: ESLint
+    stages: [commit]
+    entry: lint-staged
+    args: ["eslint"]
