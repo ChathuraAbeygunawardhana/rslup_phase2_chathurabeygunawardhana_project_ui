@@ -1,65 +1,47 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
 }
 
-.login-container {
-  background-color: #fff;
+.container {
+  background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  padding: 30px 50px 30px 30px;
-  width: 320px;
-  text-align: center; /* Center align content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  text-align: center;
+  padding: 20px;
 }
 
-.login-title {
-  font-size: 28px;
-  margin: 0;
+h1 {
   color: #333;
 }
 
-.login-form form {
-  margin-top: 20px;
-}
-
-/* Set the width of input fields and button to 100% */
-input,
-.login-button {
+input[type="email"] {
   width: 100%;
   padding: 10px;
+  margin: 10px 0;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  font-size: 16px;
+  border-radius: 3px;
+  box-sizing: border-box;
 }
 
-.login-button {
-  background-color: #04aa6d;
+.btn {
+  background-color: #3498db;
   color: #fff;
+  padding: 10px 15px;
   border: none;
+  border-radius: 3px;
   cursor: pointer;
+  font-size: 16px;
   transition: background-color 0.3s;
 }
 
-.login-button:hover {
-  background-color: #048d5e;
-}
-
-.forgot-password {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: #333;
-  margin-top: 10px; /* Increased margin-top */
-}
-
-.login-button,
-.forgot-password {
-  font-size: 16px;
-  width: 340px;
+.btn:hover {
+  background-color: #2980b9;
 }
