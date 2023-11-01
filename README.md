@@ -1,27 +1,55 @@
-# Authentication
+# for RSLUP assesment purposes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+Enter the username and password as
+username : admin
+password : Test$1234
 
-## Development server
+# Airline Ground Management system
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This repository contains an Angular frontend and a JSON server for the backend. Follow these steps to run the application on your local machine.
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Make sure you have the following software installed on your system:
 
-## Build
+- Node.js and npm: You can download them from [nodejs.org](https://nodejs.org/).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+1. Clone this repository to your local machine using `git clone` or by downloading the ZIP file.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Open a terminal or command prompt and navigate to the project directory:
 
-## Running end-to-end tests
+   ```bash
+   cd your-repository-directory
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3. Install the project dependencies using npm:
 
-## Further help
+   ```bash
+   npm install
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Running the JSON Server
+
+To start the JSON server, run the following command:
+
+```bash
+json-server db.json
+```
+
+The JSON server will provide the backend data for your application.
+
+## Running the Angular Frontend
+
+To run the Angular frontend, execute the following command:
+
+```bash
+ng serve
+```
+
+This will start the development server for the Angular application. You can access the application in your web browser at `http://localhost:4200/`.
+
+## Application Access
+
+Once both the JSON server and Angular frontend are running, you can access the application in your web browser at `http://localhost:4200/`.

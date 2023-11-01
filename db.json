@@ -8,8 +8,8 @@
       "gender": "male",
       "role": "admin",
       "isactive": true,
-      "address":{
-        "area":"chennai"
+      "address": {
+        "area": "colombo"
       }
     },
     {
@@ -20,20 +20,20 @@
       "gender": "male",
       "role": "user",
       "isactive": true,
-      "address":{
-        "area":"chennai"
+      "address": {
+        "area": "colombo"
       }
     },
     {
-      "id": "Jhon1",
+      "id": "Kamal1",
       "name": "NT Infotech",
       "password": "Test@1233",
       "email": "te@in.com",
       "gender": "male",
-      "role": "tech",
+      "role": "passenger",
       "isactive": true,
-      "address":{
-        "area":"chennai"
+      "address": {
+        "area": "colombo"
       }
     },
     {
@@ -42,11 +42,20 @@
       "password": "Test@1234",
       "email": "te@in.com",
       "gender": "male",
-      "role": "tech",
+      "role": "passenger",
       "isactive": true,
-      "address":{
-        "area":"banglore"
+      "address": {
+        "area": "galle"
       }
+    },
+    {
+      "id": "new_user",
+      "name": "HelloUser",
+      "password": "Test$1234",
+      "email": "hello@gmail.com",
+      "gender": "male",
+      "role": "passenger",
+      "isactive": false
     }
   ],
   "role": [
@@ -55,8 +64,8 @@
       "name": "User"
     },
     {
-      "code": "tech",
-      "name": "Technician"
+      "code": "passenger",
+      "name": "Passenger"
     }
   ],
   "menu": [
@@ -73,59 +82,57 @@
     {
       "role": "admin",
       "menu": "user",
-      "haveedit":true,
-      "haveadd":true,
-      "havedelete":true
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
     },
     {
       "role": "admin",
       "menu": "customer",
-      "haveedit":true,
-      "haveadd":true,
-      "havedelete":true
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
     },
     {
       "role": "user",
       "menu": "user",
-      "haveedit":false,
-      "haveadd":false,
-      "havedelete":false
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
     },
     {
       "role": "user",
       "menu": "customer",
-      "haveedit":true,
-      "haveadd":true,
-      "havedelete":false
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false
     }
-    
-    
   ],
-  "customer":[
+  "customer": [
     {
-      "id":1,
-      "name":"rakhesh",
-      "Creditlimit":1000
+      "id": 1,
+      "name": "chathura",
+      "Creditlimit": 1000
     },
     {
-      "id":2,
-      "name":"rahul",
-      "Creditlimit":1000
+      "id": 2,
+      "name": "nimal",
+      "Creditlimit": 1000
     },
     {
-      "id":3,
-      "name":"ramesh",
-      "Creditlimit":1000
+      "id": 3,
+      "name": "ramesh",
+      "Creditlimit": 1000
     },
     {
-      "id":4,
-      "name":"rahim",
-      "Creditlimit":1000
+      "id": 4,
+      "name": "sunil",
+      "Creditlimit": 1000
     },
     {
-      "id":5,
-      "name":"robert",
-      "Creditlimit":1000
+      "id": 5,
+      "name": "jagath",
+      "Creditlimit": 1000
     }
   ]
 }
