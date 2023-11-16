@@ -2,7 +2,7 @@
   "user": [
     {
       "id": "admin",
-      "name": "NT Infotech",
+      "name": "Sunil",
       "password": "Test$1234",
       "email": "test@gmail.com",
       "gender": "male",
@@ -26,7 +26,7 @@
     },
     {
       "id": "Kamal1",
-      "name": "NT Infotech",
+      "name": "Kamal",
       "password": "Test@1233",
       "email": "te@in.com",
       "gender": "male",
@@ -37,7 +37,7 @@
       }
     },
     {
-      "id": "ntuser",
+      "id": "ramesh",
       "name": "ramesh",
       "password": "Test@1234",
       "email": "te@in.com",
@@ -50,7 +50,7 @@
     },
     {
       "id": "new_user",
-      "name": "HelloUser",
+      "name": "testing_user",
       "password": "Test$1234",
       "email": "hello@gmail.com",
       "gender": "male",

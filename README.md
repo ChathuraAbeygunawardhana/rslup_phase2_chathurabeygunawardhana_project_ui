@@ -1,12 +1,20 @@
+# Airline Ground Management system
+
+This repository contains an Angular frontend and a JSON server for the backend. Follow these steps to run the application on your local machine.
+
+## Running the JSON Server
+
+To start the JSON server, run the following command:
+
+```bash
+json-server db.json
+```
+
 # for RSLUP assesment purposes
 
 Enter the username and password as
 username : admin
 password : Test$1234
-
-# Airline Ground Management system
-
-This repository contains an Angular frontend and a JSON server for the backend. Follow these steps to run the application on your local machine.
 
 ## Prerequisites
 
@@ -29,14 +37,6 @@ Make sure you have the following software installed on your system:
    ```bash
    npm install
    ```
-
-## Running the JSON Server
-
-To start the JSON server, run the following command:
-
-```bash
-json-server db.json
-```
 
 The JSON server will provide the backend data for your application.
 
