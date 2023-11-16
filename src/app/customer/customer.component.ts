@@ -14,8 +14,8 @@ import { AuthService } from '../service/auth.service';
 export class CustomerComponent {
   constructor(
     private service: AuthService,
-    private toastr: ToastrService,
-    private router: Router
+    public toastr: ToastrService,
+    public router: Router
   ) {
     this.SetAccesspermission();
   }
@@ -30,6 +30,7 @@ export class CustomerComponent {
   havedelete = false;
 
   ngAfterViewInit(): void {}
+  ngOnInit(): void {}
   LoadCustomer() {
     this.service.GetAllCustomer().subscribe((res) => {
       this.customerlist = res;
